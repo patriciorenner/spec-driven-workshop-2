@@ -38,9 +38,9 @@ Según el tipo de la tarea, invoca el agente correspondiente pasándole el conte
 
 | Tipo | Agente | Definición |
 |------|--------|------------|
-| tests | tester | [tester.prompt.md](material/agents/tester.prompt.md) |
-| código | coder | [coder.prompt.md](material/agents/coder.prompt.md) |
-| documentación | documenter | [documenter.prompt.md](material/agents/documenter.prompt.md) |
+| tests | tester | [TESTER.md](material/agents/TESTER.md) |
+| código | coder | [CODER.md](material/agents/CODER.md) |
+| documentación | documenter | [DOCUMENTER.md](material/agents/DOCUMENTER.md) |
 
 ### 2d. Registrar el resultado
 
