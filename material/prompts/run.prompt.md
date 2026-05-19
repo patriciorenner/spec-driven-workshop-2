@@ -13,7 +13,7 @@ Ejecuta el plan aprobado end-to-end. Opera de forma autónoma: no solicites conf
 
 ## Paso 1 — Cargar el plan
 
-Lee los archivos en `docs/plans/` y selecciona el plan con `Estado: aprobado` que tenga tareas sin completar. Si hay más de uno, pregunta al usuario cuál ejecutar antes de continuar. Si no hay ninguno, informa y detente.
+Lee los archivos en `specs/plans/` y selecciona el plan con `Estado: aprobado` que tenga tareas sin completar. Si hay más de uno, pregunta al usuario cuál ejecutar antes de continuar. Si no hay ninguno, informa y detente.
 
 Carga el plan completo: encabezado, alcance, tareas y secciones de seguimiento.
 

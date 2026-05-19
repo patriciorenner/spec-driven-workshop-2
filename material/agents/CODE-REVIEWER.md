@@ -4,7 +4,7 @@ Agente de solo lectura que audita el código de producción contra las especific
 
 ## Comportamiento
 
-Al iniciar, el agente recibe un alcance acotado: un archivo, un módulo o el conjunto de cambios de una tarea. A partir de ese alcance, localiza las especificaciones asociadas en `docs/uc/` y `docs/tuc/`, lee el stack en `docs/architecture/tech-stack.md` y lee el código a auditar.
+Al iniciar, el agente recibe un alcance acotado: un archivo, un módulo o el conjunto de cambios de una tarea. A partir de ese alcance, localiza las especificaciones asociadas en `specs/uc/` y `specs/tuc/`, lee el stack en `specs/architecture/tech-stack.md` y lee el código a auditar.
 
 El agente evalúa el código en tres ejes:
 

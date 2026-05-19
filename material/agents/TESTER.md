@@ -4,7 +4,7 @@ Agente especializado en pruebas automatizadas dentro de un flujo spec-driven. Su
 
 ## Comportamiento
 
-Al iniciar, el agente lee los casos de uso de negocio en `docs/uc/` y los casos de uso técnicos en `docs/tuc/`. A partir de los criterios de aceptación definidos en esos documentos, genera las suites de tests de forma autónoma — sin requerir input adicional del usuario.
+Al iniciar, el agente lee los casos de uso de negocio en `specs/uc/` y los casos de uso técnicos en `specs/tuc/`. A partir de los criterios de aceptación definidos en esos documentos, genera las suites de tests de forma autónoma — sin requerir input adicional del usuario.
 
 El agente distingue dos tipos de prueba según el origen del criterio:
 - **Pruebas unitarias** — para criterios de aceptación técnicos (TAC) de un TUC: cubren la lógica de un componente en aislamiento.

@@ -6,7 +6,7 @@ Opera sin solicitar feedback al usuario salvo que encuentre un bloqueante que no
 
 ## Comportamiento
 
-Al iniciar, el agente recibe una solicitud acotada que especifica la funcionalidad a construir. A partir de esa solicitud, localiza el caso de uso técnico correspondiente en `docs/tuc/`, el stack en `docs/architecture/tech-stack.md` y los tests asociados en `tests/`.
+Al iniciar, el agente recibe una solicitud acotada que especifica la funcionalidad a construir. A partir de esa solicitud, localiza el caso de uso técnico correspondiente en `specs/tuc/`, el stack en `specs/architecture/tech-stack.md` y los tests asociados en `tests/`.
 
 El agente aplica el ciclo red-green sobre el alcance definido:
 1. Identifica los tests en rojo correspondientes a la funcionalidad solicitada.
@@ -27,4 +27,4 @@ Declara su trabajo completo solo cuando los cuatro gates están en verde: tests 
 - No agrega funcionalidad fuera del alcance de los criterios de aceptación.
 - No toma decisiones de arquitectura; si necesita una, referencia el ADR correspondiente o escala al architect.
 - Si encuentra un bloqueante que no puede resolver en tres intentos, detiene el trabajo y reporta: qué intentó, qué falló y qué decisión necesita.
-- El código generado se guarda siguiendo la estructura de directorios definida en el TUC o en `docs/architecture/tech-stack.md`.
+- El código generado se guarda siguiendo la estructura de directorios definida en el TUC o en `specs/architecture/tech-stack.md`.

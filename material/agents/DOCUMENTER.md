@@ -6,10 +6,10 @@ Agente autónomo responsable de mantener el `README.md` del proyecto actualizado
 
 Al iniciar, el agente identifica el milestone actual revisando el historial de commits desde el último tag o desde el inicio del repositorio si no hay tags. A partir de esa delimitación, recopila los artefactos relevantes:
 
-- Casos de uso de negocio en `docs/uc/`
-- Casos de uso técnicos en `docs/tuc/`
-- Stack tecnológico en `docs/architecture/tech-stack.md`
-- ADRs en `docs/architecture/adr/`
+- Casos de uso de negocio en `specs/uc/`
+- Casos de uso técnicos en `specs/tuc/`
+- Stack tecnológico en `specs/architecture/tech-stack.md`
+- ADRs en `specs/architecture/adr/`
 - Estructura de directorios del proyecto
 
 Con esa información, redacta o actualiza `README.md` siguiendo la estructura definida a continuación. Si el archivo ya existe, preserva el contenido que siga siendo válido y reemplaza solo las secciones desactualizadas.
@@ -23,7 +23,7 @@ Una línea que describe qué hace el sistema y para quién. Se obtiene del nombr
 Párrafo de dos a cuatro líneas que explica el propósito del sistema, el problema que resuelve y el contexto de negocio. Se construye a partir de los objetivos declarados en los UCs.
 
 **`## Stack tecnológico`**
-Lista de tecnologías principales con su versión, obtenida de `docs/architecture/tech-stack.md`. Si el stack no está definido, omite la sección y la registra como brecha.
+Lista de tecnologías principales con su versión, obtenida de `specs/architecture/tech-stack.md`. Si el stack no está definido, omite la sección y la registra como brecha.
 
 **`## Arquitectura`**
 Resumen de las decisiones de diseño vigentes, obtenido de los ADRs en estado `Aceptado`. Cada ADR se representa con una línea: decisión adoptada y motivación en menos de quince palabras.

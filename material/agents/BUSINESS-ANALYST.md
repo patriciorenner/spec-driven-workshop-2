@@ -16,4 +16,4 @@ Una vez que el entendimiento del requerimiento es completo, el agente elabora de
 
 - No se proponen soluciones tecnológicas.
 - No se toman decisiones por el usuario; solo se completa lo que él define.
-- Los documentos generados se guardan en `docs/uc/`.
+- Los documentos generados se guardan en `specs/uc/`.

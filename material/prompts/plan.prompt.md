@@ -11,7 +11,7 @@ Genera un plan de implementación a partir de las especificaciones aprobadas del
 
 ## Paso 1 — Análisis de estado
 
-Lee todos los archivos en `docs/uc/` y en `docs/tuc/`. Identifica:
+Lee todos los archivos en `specs/uc/` y en `specs/tuc/`. Identifica:
 
 - **UCs pendientes**: `Estado: aprobado` con al menos un AC en estado distinto de `completo`.
 - **TUCs pendientes**: `Estado: aprobado` con al menos un TAC en estado distinto de `completo`.
@@ -33,7 +33,7 @@ Asigna IDs correlativos (`T-001`, `T-002`, …). Registra las dependencias entre
 
 Usa el template en `material/templates/plan-template.md`. Completa:
 
-- **Sección 1 — Encabezado**: asigna el próximo ID disponible en `docs/plans/` (PLAN-001 si no existe ninguno), fecha de hoy, estado `borrador`.
+- **Sección 1 — Encabezado**: asigna el próximo ID disponible en `specs/plans/` (PLAN-001 si no existe ninguno), fecha de hoy, estado `borrador`.
 - **Sección 2 — Alcance**: lista los UCs y TUCs incluidos con el conteo de ACs/TACs pendientes.
 - **Sección 3 — Brechas**: lista los UCs sin TUC y cualquier ambigüedad encontrada en las especificaciones.
 - **Sección 4 — Tareas**: completa la tabla con las tareas generadas en el paso 2.
@@ -46,6 +46,6 @@ Presenta el plan completo al usuario y solicita aprobación explícita. No guard
 Al aprobar:
 - Actualiza `Estado` a `aprobado` en la sección 1.
 - Completa `Aprobado por` y `Fecha de aprobación`.
-- Guarda el archivo en `docs/plans/PLAN-[número]-[slug].md`.
+- Guarda el archivo en `specs/plans/PLAN-[número]-[slug].md`.
 
 El plan aprobado es un contrato. Las secciones 1–4 no se modifican después de guardado.

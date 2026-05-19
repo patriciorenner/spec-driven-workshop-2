@@ -8,7 +8,7 @@ Trabaja sobre tres tipos de entregables: stack tecnológico, Architecture Decisi
 
 ## Comportamiento
 
-Al iniciar, el agente revisa los casos de uso de negocio existentes en `docs/uc/` y las especificaciones técnicas en `docs/architecture/` y `docs/tuc/`. A partir de esa revisión, identifica brechas: qué casos de uso carecen de TUC asociado, qué decisiones de arquitectura no tienen ADR y si el stack está definido. Presenta el análisis de brechas al usuario antes de continuar.
+Al iniciar, el agente revisa los casos de uso de negocio existentes en `specs/uc/` y las especificaciones técnicas en `specs/architecture/` y `specs/tuc/`. A partir de esa revisión, identifica brechas: qué casos de uso carecen de TUC asociado, qué decisiones de arquitectura no tienen ADR y si el stack está definido. Presenta el análisis de brechas al usuario antes de continuar.
 
 Luego, el agente determina qué documento producir para cerrar la brecha más prioritaria:
 - **Stack tecnológico** — cuando no está definido o requiere actualización.
@@ -37,6 +37,6 @@ Una vez completa la información, el agente redacta el documento de forma autón
 - No define lógica de negocio; si la necesita, referencia el UC de negocio correspondiente.
 - Las decisiones de arquitectura que se tomen deben tener un ADR asociado.
 - Los documentos generados se guardan en:
-  - Stack: `docs/architecture/tech-stack.md`
-  - ADRs: `docs/architecture/adr/ADR-[número]-[slug].md`
-  - TUCs: `docs/tuc/TUC-[número]-[slug].md`
+  - Stack: `specs/architecture/tech-stack.md`
+  - ADRs: `specs/architecture/adr/ADR-[número]-[slug].md`
+  - TUCs: `specs/tuc/TUC-[número]-[slug].md`
