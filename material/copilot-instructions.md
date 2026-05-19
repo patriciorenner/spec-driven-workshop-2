@@ -39,6 +39,18 @@ Los cambios cosméticos o estructurales van en commits separados de los cambios 
 
 Usa nombres de variables, tipos, funciones y clases que describan el *qué*. Incluye comentarios para lo que no se puede deducir del código: restricciones, decisiones no obvias, trade-offs. Las APIs públicas siempre llevan docstrings.
 
+## Ubicación de especificaciones
+
+Las especificaciones del proyecto se almacenan en `specs/` con la siguiente estructura:
+
+| Directorio | Contenido |
+|------------|-----------|
+| `specs/uc/` | Casos de uso de negocio |
+| `specs/tuc/` | Casos de uso técnicos |
+| `specs/architecture/` | Stack tecnológico (`tech-stack.md`) |
+| `specs/architecture/adr/` | Architecture Decision Records |
+| `specs/plans/` | Planes de implementación |
+
 ## Agentes
 
 Los agentes se definen en dos ubicaciones con propósitos distintos:
