@@ -1,3 +1,4 @@
 .claude/
-.tmp/
+tmp/
 CLAUDE.md
+.DS_Store
